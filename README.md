@@ -25,3 +25,6 @@ I used the React framework, JS, HTML and CSS.
 - User should not be able to submit the form with a date that is already passed
 - User should not be able to submit the form if the end time is before the start time
 - User should not be able to submit the form when they add a number of guest that exceeds the max number of guests allowed
+
+## Deployed on Github pages
+https://sgk94.github.io/timeslot
