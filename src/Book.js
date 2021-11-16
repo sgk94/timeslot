@@ -44,7 +44,7 @@ const Book = (props) => {
         <label htmlFor="activities">Choose an activity:</label>
         <select className="inputs" value={activityName} onChange={(e)=> setActivityName(e.target.value)}>
           <option value="Drum Lesson">Drum Lesson</option>
-          <option value="Coaching Session">Coaching Session</option>
+          <option value="Valorant Lesson">Valorant Lesson</option>
         </select>
         <label>Date:</label>
         <input
@@ -79,7 +79,7 @@ const Book = (props) => {
           className="inputs"
           type="number"
           min = "1"
-          max = "10"
+          max = "3"
           value={guests}
           onChange={(e) => setActivityGuests(e.target.value)} 
           required

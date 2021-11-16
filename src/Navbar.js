@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
+  //Handle the navbar book now button
   const handleClick = (e) => {
     console.log('booking time');
   }

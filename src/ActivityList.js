@@ -1,6 +1,7 @@
 const ActivityList = ({activities, sortByDate}) => {
+
+  //Handle the click of the sort by date button and trigger the sort function
   const onSortByDateClick = (activities) => {
-    console.log("I have been clicked");
     sortByDate(activities);
   }
 
