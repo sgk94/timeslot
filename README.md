@@ -17,7 +17,7 @@ I used the React framework, JS, HTML and CSS.
 - [x] Enforce that all properties are included
 - [x] Don't allow the start time to be after the end time
 - [x] Don't allow scheduling a timeslot in the past
-- [x] Include a sort option
+- [x] Include a sort option. Add multiple bookings and press sort by date should sort the list of activities from closest to furthest.
 
 ## Test Cases
 
