@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Timeslot Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this challenge I wanted to share more information about myself. The time slot app is called Game and Beats because I have been drumming for over 14 years now. I have also been playing video games for as long as I can remember. A common passion within these two hobbies is teaching. I used to teach drums as a part time job throughout college and high school. I also teach tactical fps on the side as a fun hobby. You will see the two available activities for users to choose from reflects this. 
 
-## Available Scripts
+## Technology Used
 
-In the project directory, you can run:
+I used the React framework, JS, HTML and CSS.
 
-### `npm start`
+## Level 1 Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Show a button or CTA to schedule a new timeslot.
+- [x] Clicking the CTA should open a form where you can save the timeslot details.
+- [x] Display the timeslots that have been scheduled.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Extra Credit
 
-### `npm test`
+- [x] Enforce that all properties are included
+- [x] Don't allow the start time to be after the end time
+- [x] Don't allow scheduling a timeslot in the past
+- [x] Include a sort option
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Test Cases
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- User is required to fill out every field before submission is accepted
+- User should not be able to submit the form with a date that is already passed
+- User should not be able to submit the form if the end time is before the start time
+- User should not be able to submit the form when they add a number of guest that exceeds the max number of guests allowed
